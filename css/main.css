@@ -172,22 +172,13 @@ main {
     color: var(--text-gray);
 }
 
-.main-table-container {
-    display: flex;
-    overflow-x: scroll;
-    width: 100%;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-}
-
 .main-table-container .main-currency-table,
 .main-table-container .main-comision-table {
-    scroll-snap-align: center;
-    width: 70vw;
+    width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 15vw;
+    margin: 0 auto;
     margin-bottom: 50px;
     font-family: var(--secondary-font);
 }
